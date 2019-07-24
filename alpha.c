@@ -1,12 +1,14 @@
 
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
 char a;
 scanf("%c",a);
-if((a>='a' && a<='z') || (a>='A' && a<='Z' ))
-printf("alphabet");
-else
-printf("No");
+  if(isalpha(a))
+    printf("Alphabet");
+  else
+    printf("No");
+
 return 0;
 }
