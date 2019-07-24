@@ -7,13 +7,13 @@ char a;
 if(isalpha(a))
 {
 if(a=='A'|| a=='a' || a=='e' || a=='E' || a=='i' || a=='I' || a=='o' || a=='O' || a=='u' || a=='U' )
-printf("vowel");
+printf("Vowel");
 else
-printf("consonant");
+printf("Consonant");
 }
 else
-printf("invalid")
-return(0);
+printf("Invalid");
+return 0;
 }
 
 
